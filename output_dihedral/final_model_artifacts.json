@@ -1,0 +1,31 @@
+{
+    "selected_homo_model": "KernelRidge",
+    "selected_lumo_model": "RandomForest",
+    "selected_energy_model": "RandomForest",
+    "selected_energy_target_mode": "delta_energy",
+    "selected_energy_weight_scheme": "none",
+    "best_homo_params": {
+        "alpha": 0.10469867351832192,
+        "gamma": 0.014714896930826355
+    },
+    "best_lumo_params": {
+        "n_estimators": 767,
+        "max_depth": 16,
+        "min_samples_split": 6,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+    },
+    "best_energy_params": {
+        "n_estimators": 741,
+        "max_depth": 14,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": null
+    },
+    "best_homo_inner_score": 0.11933849003944964,
+    "best_lumo_inner_score": 0.13986837567597699,
+    "best_energy_inner_score": 1047.631748750426,
+    "homo_bundle_path": "final_kernelridge_homo_bundle.pkl",
+    "lumo_bundle_path": "final_randomforest_lumo_bundle.pkl",
+    "energy_bundle_path": "final_randomforest_energy_bundle.pkl"
+}
